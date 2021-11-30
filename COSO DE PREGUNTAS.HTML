@@ -1,0 +1,60 @@
+<DOCTYPE HTML>
+<html>
+<head>
+<title>Formulario de contacto</title>
+</head>
+<body>  
+<body background="IMG ZZ/20.jpg">
+<img src="IMG ZZ/123456789.png" width="350" heigth="350" border="4" align="right">
+<center> <h1> Formulario de Contacto en HTML <h1> </center>
+<h1>Formulario de contacto</h1>
+<a name="Escribenos y en breve nos pondremos en contacto contigo"></a>
+<h2><i><b><u> Escríbenos y en breve nos pondremos en contacto contigo </h2></i></b></u>
+</font>
+<font size="4"  face="Times New Roman" color="000000">
+<p align="justified">
+
+<form action="submeter-formulario.php" method="post">             
+<p>
+<label for="nombre" class="colocar_nombre">Nombre
+<span class="obligatorio">*</span>
+</label>
+<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+</p>
+<p>
+<label for="apellido" class="colocar_apellido">Apellido
+<span class="obligatorio">*</span>
+</label>
+<input type="text" name="introducir_apellido" id="apellido" required="obligatorio" placeholder="Escribe tu apellido">
+</p>
+<p>
+<label for="email" class="colocar_email">Email
+<span class="obligatorio">*</span>  
+</label>                
+<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+</p>
+<p>
+<label for="telefono" class="colocar_nombre">Telefono
+<span class="obligatorio">*</span>
+</label>
+<input type="text" name="introducir_telefono" id="telefono" required="obligatorio" placeholder="Escribe tu telefono">
+</p>  
+<p>
+<label for="asunto" class="colocar_asunto">Asunto
+<span class="obligatorio">*</span>
+</label>
+<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+</p>    
+<p>
+<label for="mensaje" class="colocar_mensaje">Mensaje
+<span class="obligatorio">*</span>
+</label>                     
+<textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+</p>                    
+<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+<p class="aviso">
+<span class="obligatorio"> * </span>los campos son obligatorios.
+</p>          
+</form>
+</body>
+</html>
